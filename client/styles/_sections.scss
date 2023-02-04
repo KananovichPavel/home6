@@ -1,0 +1,150 @@
+.about {
+    text-align: center;
+
+    &-text {
+        padding: 5rem;
+
+        text-align: center;
+        color: $link-hover;
+        border-radius: 10px;
+
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('https://www.w3.org/2020/maps/assets/media/header-map/map_960x540_with_code.jpg');
+        background-position: 50% 50%;
+        background-size: 100%;
+        font-size: 15px;
+    }
+}
+
+.delivery {
+    background-color:$white-darken;
+    border-radius: 10px;
+
+
+    max-width: 1150px;
+    margin: 0 auto;
+    &-logo {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+
+        &__icon {
+            display: inline;
+            width: 90px;
+            height: 90px;
+
+            background-color:$white;
+            border-radius: 50%;
+
+        }
+
+    }
+
+    &-text {
+        text-align: center;
+        color: $link-hover;
+        padding: 4rem;
+        font-size: 15px;
+    }
+}
+
+.ourProduct {
+    text-align: center;
+    display: inline-block;
+
+    list-style: none;
+
+    &-products {
+        display: inline-block;
+        padding: 1.5rem 1.5rem;
+
+
+        list-style: none;
+
+        &__product {
+            display: inline-block;
+            padding: 1.5rem 1.5rem;
+
+
+            list-style: none;
+
+            &_productImage {
+                width: 230px;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+}
+
+.swiper {
+    width: 100%;
+    height: auto;
+
+    &-slids {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__slide {
+            position: relative;
+            width: calc(100% / 4);
+            margin: 1rem;
+            padding: 3rem;
+
+            text-align: center;
+
+
+            background-color:$white-darken;
+            border-radius: 1rem;
+
+            color: $link-hover;
+
+        }
+    }
+}
+
+.contact {
+    text-decoration: none;
+    color:$white;
+
+    &-data {
+        font-size: 30px;
+        margin-bottom: 50px;
+
+    }
+
+    &-form {
+        padding-bottom: 5rem;
+
+        &__card {
+            color:$white;
+            width: 300px;
+            height: 500px;
+            background-color: $link-hover;
+            border-radius: 20px;
+            font-size: 18px;
+            border: none;
+            padding: 1rem 3rem;
+            margin-top: 5rem;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+
+            text-align: center;
+
+            &_input {
+                color:$white;
+                width: 300px;
+                height: 50px;
+                background-color:$form-color;
+                border-radius: 10px;
+                margin: 2rem 0rem;
+                border: none;
+
+            }
+        }
+    }
+}

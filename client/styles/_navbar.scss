@@ -1,0 +1,33 @@
+.navbar {
+    text-align: center;
+    
+    font-size: 20px;
+
+    &-lists {
+        margin: 0;
+        padding: 0;
+
+        &__list {
+
+            display: inline-block;
+            padding: 2.5rem 1rem;
+
+
+            list-style: none;
+
+        }
+
+        &__logo {
+            float: right;
+
+            &_icon {
+                display: inline;
+                width: 80px;
+                height: 80px;
+                padding-right: 2rem;
+                padding-top: 1rem;
+
+            }
+        }
+    }
+}

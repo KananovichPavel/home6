@@ -1,0 +1,13 @@
+@font-face {
+    font-family: Oswald-Regular;
+    src: url('../fonts/Oswald-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: Oswald-SemiBold;
+    src: url('../fonts/Oswald-SemiBold.ttf');
+  }
+  
+  body {
+    font-family: Oswald-SemiBold
+  }
